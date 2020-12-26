@@ -1,0 +1,55 @@
+.main-container {
+}
+.cards-box {
+    border: 0.5rem solid white;
+    background-color: rgba(253, 253, 253, 0.35);
+    margin: 4% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards-box:hover {
+    box-shadow: 0px 0px 2rem 1rem #494848;
+}
+.cards-filter-form {
+    margin: $cardsMargin;
+    padding: $cardsPadding;
+    border: $cardsBorder;
+    background-color: $backgroundColor3;
+}
+.cards-create-form {
+    border: $cardsBorder;
+    background-color: $backgroundColor3;
+    margin: $cardsMargin;
+    padding: $cardsPadding;
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.form-input {
+    border: 2px solid grey;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 3px;
+    font-style: italic;
+}
+.form-btn {
+    border: 2px solid grey;
+    background-color: $accentColor;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 3px 7px;
+    margin: 7px;
+}
+.form-btn:hover{
+    box-shadow: 0px 0px 5px 2px #8f8e8e;
+    transform: scale(1.05);
+}
+.form-btn:active{
+    box-shadow: 0px 0px 5px 2px #fd5f4d;
+    transform: scale(0.95);
+    
+}

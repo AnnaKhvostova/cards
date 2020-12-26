@@ -1,0 +1,60 @@
+//  @mixin flexRow{
+//      display: flex;
+//      justify-content: space-between;
+//  }
+
+
+// @mixin text-style(
+//     $fontSize,
+//     $textTransform,
+//     $lineHeight,
+//     $color,
+//     $fontFamily,
+//     $fontStyle: normal,
+//     $fontWeight: normal
+// ) {
+//     font-size: $fontSize;
+//     font-weight: $fontWeight;
+//     text-transform: $textTransform;
+//     line-height: $lineHeight;
+//     color: $color;
+//     font-style: $fontStyle;
+//     font-family: $fontFamily;
+// }
+
+// @mixin containerPaddings($left, $top, $right, $bottom) {
+//     padding-left: $left;
+//     padding-top: $top;
+//     padding-right: $right;
+//     padding-bottom: $bottom;
+// }
+
+// @mixin flex(
+//     $direction: column,
+//     $wrap: nowrap,
+//     $justifyContent: space-between,
+//     $alignItems: center,
+//     $textAlign: center
+// ) 
+
+// {
+//     display: flex;
+//     flex-direction: $direction;
+//     align-items: $alignItems;
+//     text-align: $textAlign;
+//     flex-wrap: $wrap;
+//     justify-content: $justifyContent;
+// }
+
+// @mixin gridHalf($gap) {
+//     display: grid;
+//     grid-template-columns: 45% 55%;
+//     gap: $gap;
+//     align-items: flex-start;
+    
+// }
+
+// @mixin transform {
+//     transform: scale(1.1);
+//     transition: 0.8s;
+// }

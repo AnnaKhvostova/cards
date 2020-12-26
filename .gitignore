@@ -1,0 +1,6 @@
+package-lock.json
+.dist
+.idea
+node-modules
+node_modules
+dist

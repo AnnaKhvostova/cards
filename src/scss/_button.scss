@@ -1,0 +1,24 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.btn-success,
+.btn-primary {
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  outline: none;
+}
+.btn-primary:hover {
+  background-color: rgb(29, 29, 83);
+  outline: none;
+}
+.btn-primary:focus {
+  background-color: rgb(47, 47, 53);
+  outline: none;
+}
+.btn-success:hover {
+  background-color: rgb(29, 29, 83);
+  outline: none;
+}
+.btn-success:focus {
+  background-color: rgb(29, 29, 83);
+  outline: none;
+}

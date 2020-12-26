@@ -1,0 +1,111 @@
+
+
+.visit-form {
+  margin-top: 5px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 150px);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #fff;
+  background-color: rgba(225,218,218,.7);
+  border-radius: 5%;
+  box-shadow: 0 11px 15px 14px black;
+}
+
+.visit-select-form {
+  margin-top: 5px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 150px);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #fff;
+  background-color: rgba(225,218,218,.7);
+  border-radius: 5%;
+  box-shadow: 0 11px 15px 14px black;
+}
+
+.form-input,
+.form-select {
+  width: 250px;
+  height: 25px;
+  border: none;
+}
+.form-hidden {
+  display: none;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.doctor-select {
+  z-index: 2000;
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: calc(50% - 80px);
+  display: block;
+  margin: 0 auto 10px;
+  background-color: #fffdfe;
+  border: 3px solid #7eb038;
+  border-radius: 1rem;
+  font-size: 19px;
+  color: #000;
+  font-style: italic;
+
+}
+.doctor-select.form-hidden {
+  display: none;
+}
+.close-form-btn {
+  align-self: flex-end;
+  margin: -25px -16px 9px 0;
+  background: #75a334;
+  border: 2px solid grey;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.close-form-btn:hover,
+.form-submit:hover {
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px black;
+}
+.form-submit {
+  border: 2px solid grey;
+  background-color: #7eb038;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 3px 7px;
+  margin: 7px;
+}
+.edit-btn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: 900;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  padding: 4px;
+}
+.task-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  justify-items: center;
+  align-items: baseline;
+}

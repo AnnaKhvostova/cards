@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./dist/css/styles.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="wrapper-shadow">
+        <header class='header'>
+            <div class="container">
+                <div class='header-container'>
+                    <div class='header-logo'>
+                        <div class='logo-container'>
+                            <img src="src/img/logo.jpg" alt="logo" height="60">
+                        </div>
+                        <p class='logo-text'>Best<span class='logo-text-accent'>
+                                    #Life
+                                </span></p>
+
+                    </div>
+                    <button class='login-btn' id='btnLogin'>Вход</button>
+                    <button class='createVisitBtn form-btn' id='createVisitBtn'>Создать визит</button>
+                    <button class='login-btn' id='btnLogaut'>Выйти</button>
+                </div>
+            </div>
+
+        </header>
+        <main>
+            <div class="container">
+                <section class='cards'>
+                    <div class='cards-box'>
+<!--                        <form class='cards-filter-form' id='filter-form' onsubmit="return false" >-->
+                        <form class='cards-filter-form' id='filter-form' onsubmit="return false">
+                            <input class='form-input' type="search" placeholder="введите критерий поиска">
+                            <label class="label" for="statusSelect">Статус:</label>
+                            <select class='form-input' form='filter-form' id="statusSelect">
+                                <option selected value="Все">Все</option>
+                                <option value="Выполнен">Выполнен</option>
+                                <option value="Открыт">Открыт</option>
+                            </select>
+                            <label class="label" for="ugrentlySelect">Срочность:</label>
+                            <select class='form-input' form='filter-form' id='ugrentlySelect'>
+                                <option selected value="Все">Все</option>
+                                <option value="Обычная">Обычная</option>
+                                <option value="Приоритетная">Приоритетная</option>
+                                <option value="Неотложная">Неотложная</option>
+                            </select>
+                            <input class='form-btn' id="searchBtn" type="submit" value='Фильтровать'>
+                        </form>
+                        <div class="card-container"></div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+
+    </div>
+</div>
+
+<script type="module" src = "./dist/js/index.js"></script>
+<script type="module" src = "./dist/js/login.js"></script>
+<script type="module" src = "./dist/js/modal.js"></script>
+<script type="module" src = "./dist/js/form.js"></script>
+<script type="module" src = "./dist/js/visit.js"></script>
+<script type="module" src = "./dist/js/createCard.js"></script>
+<script type="module" src = "./dist/js/filter.js"></script>
+<script type="module" src = "./dist/js/cardDesk.js"></script>
+<script type="module" src = "./dist/js/input.js"></script>
+<script type="module" src = "./dist/js/drop.js"></script>
+
+</body>
+</html>
