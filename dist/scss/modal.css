@@ -89,13 +89,15 @@
 
 .edit-btn {
   background-color: transparent;
+  display: inline;
   border: none;
   color: black;
-  font-weight: 900;
-  position: absolute;
-  bottom: 7px;
-  right: 7px;
-  padding: 4px; }
+  font-weight: 700;
+  border: 2px solid #838181;
+  border-radius: 5px;
+  background-color: #eb3131;
+  padding: 3px;
+  margin-top: 0.5rem; }
 
 .task-container {
   width: 90%;

@@ -191,13 +191,15 @@ body {
 
 .edit-btn {
   background-color: transparent;
+  display: inline;
   border: none;
   color: black;
-  font-weight: 900;
-  position: absolute;
-  bottom: 7px;
-  right: 7px;
-  padding: 4px; }
+  font-weight: 700;
+  border: 2px solid #838181;
+  border-radius: 5px;
+  background-color: #eb3131;
+  padding: 3px;
+  margin-top: 0.5rem; }
 
 .task-container {
   width: 90%;
@@ -386,6 +388,12 @@ table {
   flex-wrap: wrap;
   justify-content: center; }
 
+.cards-filter-form {
+  margin: 1.5%;
+  padding: 0.8rem 2rem;
+  border: 2px solid white;
+  background-color: rgba(225, 218, 218, 0.7); }
+
 .createVisitBtn {
   display: none; }
 
@@ -400,12 +408,6 @@ table {
   padding: 5px;
   border-radius: 4px;
   font-weight: 900; }
-
-.cards-filter-form {
-  margin: 1.5%;
-  padding: 0.8rem 2rem;
-  border: 2px solid white;
-  background-color: rgba(225, 218, 218, 0.7); }
 
 .task-container {
   display: grid;
@@ -446,16 +448,6 @@ table {
   padding: .8rem 2rem;
   border: 2px solid #fff;
   background-color: rgba(225, 218, 218, 0.7); }
-
-.edit-btn {
-  background-color: transparent;
-  border: none;
-  color: black;
-  font-weight: 900;
-  position: absolute;
-  bottom: 7px;
-  right: 7px;
-  padding: 4px; }
 
 .details-btn {
   border: 2px solid grey;
@@ -512,12 +504,6 @@ table {
   border-radius: 4px;
   font-weight: 900; }
 
-.cards-filter-form {
-  margin: 1.5%;
-  padding: 0.8rem 2rem;
-  border: 2px solid white;
-  background-color: rgba(225, 218, 218, 0.7); }
-
 .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -528,46 +514,6 @@ table {
 .desk-noMatches {
   margin: 15px auto;
   font-size: 20px; }
-
-.search-btn {
-  width: 23px;
-  height: 22px;
-  right: 4px;
-  top: 5px;
-  position: absolute;
-  border: none;
-  background-image: url("../img/search.svg");
-  background-size: cover;
-  background-color: transparent;
-  outline: none;
-  z-index: 1000; }
-
-.search-btn:hover {
-  cursor: pointer; }
-
-.card {
-  overflow-y: auto;
-  overflow-x: hidden;
-  position: relative;
-  width: 250px;
-  height: 185px;
-  font-size: 18px;
-  opacity: 0.9;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  margin: 1.5%;
-  padding: .8rem 2rem;
-  border: 2px solid #fff;
-  background-color: rgba(225, 218, 218, 0.7); }
-
-.edit-btn {
-  background-color: transparent;
-  border: none;
-  color: black;
-  font-weight: 900;
-  position: absolute;
-  bottom: 7px;
-  right: 7px;
-  padding: 4px; }
 
 .details-btn {
   border: 2px solid grey;
@@ -609,6 +555,10 @@ table {
 .remove {
   display: none; }
 
+.card-fields {
+  font-size: 1rem;
+  font-weight: normal; }
+
 .cards-box {
   border: 0.5rem solid white;
   height: 70vh;
@@ -620,12 +570,6 @@ table {
 
 .cards-box:hover {
   box-shadow: 0px 0px 2rem 1rem #494848; }
-
-.cards-filter-form {
-  margin: 1.5%;
-  padding: 0.8rem 2rem;
-  border: 2px solid white;
-  background-color: rgba(225, 218, 218, 0.7); }
 
 .cards-create-form {
   border: 2px solid white;
